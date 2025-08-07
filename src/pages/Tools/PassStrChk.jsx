@@ -59,7 +59,7 @@ export default function PasswordStrengthChecker() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-200 to-gray-100 text-gray-900 min-h-screen flex flex-col">
+    <div className="w-full pt-10 min-h-screen flex flex-col bg-gradient-to-r from-gray-200 to-gray-100">
       <Preloader />
       <Navbar />
       
