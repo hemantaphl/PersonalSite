@@ -1,0 +1,67 @@
+import ProfileImage from "../../assets/images/Profile.png";
+
+const postData = [
+  {
+    id: 1,
+    title: "Tips for Effective Remote Work",
+    description: "The best roadtrip you can take in the US and Canada in 10 days.",
+    tags: ["UI/UX design"],
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1080&q=80",
+    link: "/tech-blog/remote-work-tips",
+    date: "July 12, 2023",
+    authorName: "Hemanta Phuyal",
+    authorPosition: "Admin",
+    authorImage: ProfileImage,
+  },
+    {
+    id: 2,
+    title: "Tips for Effective Remote Work",
+    description: "The best roadtrip you can take in the US and Canada in 10 days.",
+    tags: ["UI/UX design"],
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1080&q=80",
+    link: "/tech-blog/remote-work-tips",
+    date: "July 12, 2023",
+    authorName: "Hemanta Phuyal",
+    authorPosition: "Admin",
+    authorImage: ProfileImage,
+  },
+    {
+    id: 3,
+    title: "Tips for Effective Remote Work",
+    description: "The best roadtrip you can take in the US and Canada in 10 days.",
+    tags: ["UI/UX design"],
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1080&q=80",
+    link: "/tech-blog/remote-work-tips",
+    date: "July 12, 2023",
+    authorName: "Hemanta Phuyal",
+    authorPosition: "Admin",
+    authorImage: ProfileImage,
+  },
+    {
+    id: 4,
+    title: "Tips for Effective Remote Work",
+    description: "The best roadtrip you can take in the US and Canada in 10 days.",
+    tags: ["UI/UX design"],
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1080&q=80",
+    link: "/tech-blog/remote-work-tips",
+    date: "July 12, 2023",
+    authorName: "Hemanta Phuyal",
+    authorPosition: "Admin",
+    authorImage: ProfileImage,
+  },
+    {
+    id: 5,
+    title: "Fifth Posts",
+    description: "The best roadtrip you can take in the US and Canada in 10 days.",
+    tags: ["UI/UX design"],
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1080&q=80",
+    link: "/tech-blog/remote-work-tips",
+    date: "July 12, 2023",
+    authorName: "Hemanta Phuyal",
+    authorPosition: "Admin",
+    authorImage: ProfileImage,
+  },
+  // Add more blog posts...
+];
+
+export default postData;
