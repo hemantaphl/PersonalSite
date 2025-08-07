@@ -1,4 +1,6 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/Common/ScrollToTop"; // Adjust path as needed
 
 // Page imports
 import Home from "./pages/Home";
@@ -14,47 +16,48 @@ import Projects from "./pages/Projects";
 import Posts from "./pages/Posts";
 import ReadMe from "./pages/ReadmeGenerator";
 
-
 function App() {
   return (
     <Router>
-      <Routes>
-        {/* Home Page */}
-        <Route path="/" element={<Home />} />
+      <ScrollToTop>
+        <Routes>
+          {/* Home Page */}
+          <Route path="/" element={<Home />} />
 
-        {/* About Page */}
-        <Route path="/about" element={<About />} />
+          {/* About Page */}
+          <Route path="/about" element={<About />} />
 
-        {/* Contact Page */}
-        <Route path="/connect" element={<Contact />} />
+          {/* Contact Page */}
+          <Route path="/connect" element={<Contact />} />
 
-        {/* Tools Page */}
-        <Route path="/tools" element={<Tools />} />
+          {/* Tools Page */}
+          <Route path="/tools" element={<Tools />} />
 
-        {/* Posts Page */}
-        <Route path="/posts" element={<Posts />} />
+          {/* Posts Page */}
+          <Route path="/posts" element={<Posts />} />
 
-        {/* Projects Page */}
-        <Route path="/projects" element={<Projects />} />
+          {/* Projects Page */}
+          <Route path="/projects" element={<Projects />} />
 
-        {/* Readme Page */}
-        <Route path="/readmegenerator" element={<ReadMe />} />
+          {/* Readme Page */}
+          <Route path="/readmegenerator" element={<ReadMe />} />
 
-        {/* MyIP Page */}
-        <Route path="/services/MyIP" element={<MyIP />} />
+          {/* MyIP Page */}
+          <Route path="/services/MyIP" element={<MyIP />} />
 
-        {/* PassStrChk */}
-        <Route path="/services/PassStrChk" element={<PassStrChk />} />
+          {/* PassStrChk */}
+          <Route path="/services/PassStrChk" element={<PassStrChk />} />
 
-        {/* DNS Lookup */}
-        <Route path="/services/dnslookup" element={<DNSLookup />} />
+          {/* DNS Lookup */}
+          <Route path="/services/dnslookup" element={<DNSLookup />} />
 
-        {/* SSL Checker */}
-        <Route path="/services/sslchecker" element={<SSLChecker />} />
+          {/* SSL Checker */}
+          <Route path="/services/sslchecker" element={<SSLChecker />} />
 
-        {/* 404 Page */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+          {/* 404 Page */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </ScrollToTop>
     </Router>
   );
 }
