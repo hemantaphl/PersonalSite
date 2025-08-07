@@ -59,14 +59,14 @@ export default function PasswordStrengthChecker() {
   };
 
   return (
-    <div className="w-full pt-10 min-h-screen flex flex-col bg-gradient-to-r from-gray-200 to-gray-100">
+    <div className="bg-gradient-to-r min-h-screen from-gray-200 to-gray-100 text-gray-900 min-h-screen flex flex-col">
       <Preloader />
       <Navbar />
       
       {/* Spacer to offset fixed navbar height (adjust height if needed) */}
       <div className="h-20"></div>
 
-      <main className="flex-grow pt-8 pb-20 px-6">
+      <main className="flex-grow pt-8 pb-20 px-6 min-h-screen">
         <div className="max-w-4xl mx-auto">
           <Link
             to="/tools"
