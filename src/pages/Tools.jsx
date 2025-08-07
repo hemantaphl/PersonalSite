@@ -6,9 +6,11 @@ import IPCheckerCard from "../components/Tools/IPCheckerCard";
 import PassStrChkCard from "../components/Tools/PassStrChkCard";
 import SSLCheckerCard from "../components/Tools/SSLCheckerCard";
 import DnsLookupCard from "../components/Tools/DNSLookupCard";
+import WhoisLookupCard from "../components/Tools/WhoisLookupCard";
 
 export default function Tools() {
   const services = [
+    { id: "whois-lookup", component: <WhoisLookupCard /> },
     { id: "dns-lookup", component: <DnsLookupCard /> },
     { id: "ssl-checker", component: <SSLCheckerCard /> },
     { id: "ip-checker-1", component: <IPCheckerCard /> },

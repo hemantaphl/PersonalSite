@@ -11,6 +11,7 @@ import MyIP from "./pages/Tools/MyIP";
 import PassStrChk from "./pages/Tools/PassStrChk";
 import DNSLookup from "./pages/Tools/DNSLookup";
 import SSLChecker from "./pages/Tools/SSLChecker";
+import WhoisLookup from "./pages/Tools/WhoisLookup";
 import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 import Posts from "./pages/Posts";
@@ -53,6 +54,9 @@ function App() {
 
           {/* SSL Checker */}
           <Route path="/services/sslchecker" element={<SSLChecker />} />
+
+          {/* Whois Lookup */}
+          <Route path="/services/whoislookup" element={<WhoisLookup />} />
 
           {/* 404 Page */}
           <Route path="*" element={<NotFound />} />
