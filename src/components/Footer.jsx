@@ -73,8 +73,6 @@ export default function Footer() {
                 { name: "Home", link: "/" },
                 { name: "About", link: "/about" },
                 { name: "Tools", link: "/tools" },
-                { name: "Projects", link: "/projects" },
-                { name: "Posts", link: "/posts" },
                 { name: "Connect", link: "/connect" },
               ].map((item, idx) => (
                 <li key={idx}>
@@ -101,7 +99,7 @@ export default function Footer() {
                 </div>
                 <div className="ml-3">
                   <p className="text-sm text-black">Email</p>
-                  <a href="mailto:kshrh.info@gmail.com" className="text-black hover:text-purple-500 transition">hello@hemantaphuyal.com.np</a>
+                  <a href="mailto:kshrh.info@gmail.com" className="text-black hover:text-[#800080] transition">hello@hemantaphuyal.com</a>
                 </div>
               </li>
               <li className="flex items-start">
@@ -130,7 +128,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="cursor-pointer absolute right-2 top-1/2 transform -translate-y-1/2 bg-purple-700 hover:bg-gray-700 text-white rounded-lg px-4 py-1 transition"
+                  className="cursor-pointer absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#800080] hover:bg-gray-700 text-white rounded-lg px-4 py-1 transition"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

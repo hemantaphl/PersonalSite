@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <NavLink to="/" end>
-              <img src={WebLogoKshr} alt="Logo" className="h-10 sm:h-12 object-contain transform transition duration-300 ease-in-out hover:scale-120 hover:fill-purple-700 group-hover:text-purple-700" fill="currentColor"/>
+              <img src={WebLogoKshr} alt="Logo" className="h-10 sm:h-12 object-contain transform transition duration-300 ease-in-out hover:scale-120 hover:fill-[#800080] group-hover:text-[#800080]" fill="currentColor"/>
             </NavLink>
           </div>
 
@@ -27,8 +27,6 @@ export default function Navbar() {
             <NavItem to="/" label="Home" />
             <NavItem to="/about" label="About" />
             <NavItem to="/tools" label="Tools" />
-            <NavItem to="/projects" label="Projects" />
-            <NavItem to="/posts" label="Posts" />
           </nav>
 
           {/* Right Section: Connect + Hamburger */}
@@ -36,7 +34,7 @@ export default function Navbar() {
             {/* "Connect" Button: visible on all screens */}
             <NavLink
               to="/connect"
-              className="inline-block bg-purple-700 text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm font-medium hover:bg-gray-700 transform transition duration-300 ease-in-out hover:scale-120"
+              className="inline-block bg-[#800080] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-sm font-medium hover:bg-gray-700 transform transition duration-300 ease-in-out hover:scale-120"
             >
               Connect
             </NavLink>
@@ -75,8 +73,6 @@ export default function Navbar() {
               <MobileNavItem to="/" label="Home" onClick={() => setIsOpen(false)} />
               <MobileNavItem to="/about" label="About" onClick={() => setIsOpen(false)} />
               <MobileNavItem to="/tools" label="Tools" onClick={() => setIsOpen(false)} />
-              <MobileNavItem to="/projects" label="Projects" onClick={() => setIsOpen(false)} />
-              <MobileNavItem to="/posts" label="Posts" onClick={() => setIsOpen(false)} />
             </ul>
           </nav>
         </div>
@@ -92,8 +88,8 @@ const NavItem = ({ to, label }) => (
     end
     className={({ isActive }) =>
       isActive
-        ? "text-purple-700 font-bold"
-        : "text-gray-700 dark:text-black hover:text-purple-700 transition"
+        ? "text-[#800080] font-bold"
+        : "text-gray-700 dark:text-black hover:text-[#800080] transition"
     }
   >
     {label}

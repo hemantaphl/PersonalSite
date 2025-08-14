@@ -44,9 +44,9 @@ export default function Contact() {
                   <h4 className="font-semibold">Email</h4>
                   <a
                     href="mailto:hello@hemantaphuyal.com.np"
-                    className="text-sm mt-1 text-purple-700 hover:underline"
+                    className="text-sm mt-1 text-[#800080] hover:underline"
                   >
-                    hello@hemantaphuyal.com.np
+                    hello@hemantaphuyal.com
                   </a>
                 </div>
                 <div>

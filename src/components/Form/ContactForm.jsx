@@ -98,7 +98,7 @@ export default function ContactForm({ onSuccess }) {
         <button
           type="submit"
           disabled={loading}
-          className="cursor-pointer bg-purple-700 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105 inline-block disabled:opacity-50 disabled:cursor-not-allowed"
+          className="cursor-pointer bg-[#800080] text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105 inline-block disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading ? "Sending..." : "Send Message"}
         </button>

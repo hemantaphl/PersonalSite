@@ -8,13 +8,13 @@ export default function HeroSection() {
     >
       <div className="max-w-3xl mx-auto text-center space-y-8">
         <div>
-          <p className="text-purple-700 font-medium text-lg mb-2">
+          <p className="text-[#800080] font-medium text-lg mb-2">
             Hi, I am
           </p>
           <h1 className=" text-5xl lg:text-6xl font-bold text-gray-900  leading-tight">
             Hemanta Phuyal
           </h1>
-          <h2 className="text-2xl lg:text-3xl text-purple-700 mt-4">
+          <h2 className="text-2xl lg:text-3xl text-[#800080] mt-4">
             You're welcome here.
           </h2>
         </div>
@@ -24,14 +24,14 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <button
             onClick={() => (window.location.href = "/tools")}
-            className="cursor-pointer bg-purple-700 text-white px-8 py-3 rounded-lg hover:bg-gray-700 font-medium transform transition duration-300 ease-in-out hover:scale-105"
+            className="cursor-pointer bg-[#800080] text-white px-8 py-3 rounded-lg hover:bg-gray-700 font-medium transform transition duration-300 ease-in-out hover:scale-105"
           >
             Explore Tools
           </button>
 
           <button
             onClick={() => (window.location.href = "/connect")}
-            className="cursor-pointer border-2 border-gray-700 text-gray-700 px-8 py-3 rounded-lg hover:border-purple-700 hover:text-purple-700 font-medium transform transition duration-300 ease-in-out hover:scale-105"
+            className="cursor-pointer border-2 border-[#800080] text-[#800080] px-8 py-3 rounded-lg hover:border-purple-700 hover:text-purple-700 font-medium transform transition duration-300 ease-in-out hover:scale-105"
           >
             Connect
           </button>

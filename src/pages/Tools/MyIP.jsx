@@ -118,7 +118,7 @@ export default function FindMyIP() {
           <div className="max-w-4xl mx-auto">
             <Link
               to="/tools"
-              className="inline-block mb-6 bg-purple-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105"
+              className="inline-block mb-6 bg-[#800080] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105"
             >
               &larr; Back to Tools
             </Link>
@@ -128,7 +128,7 @@ export default function FindMyIP() {
             {loading ? (
               <p className="text-black text-lg animate-pulse">{typedData}</p>
             ) : ipData ? (
-              <div className="border border-purple-400 bg-gradient-to-r from-gray-200 to-gray-100 text-black rounded-xl p-6 shadow-lg">
+              <div className="border border-[#800080] bg-gradient-to-r from-gray-200 to-gray-100 text-black rounded-xl p-6 shadow-lg">
                 <h3 className="text-xl font-semibold text-blue-700 mb-4">
                   Your IP Address: <span className="text-black">{ipData.ip}</span>
                 </h3>

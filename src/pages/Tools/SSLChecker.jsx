@@ -57,7 +57,7 @@ export default function SslChecker() {
         <div className="max-w-4xl mx-auto">
           <Link
             to="/tools"
-            className="inline-block mb-6 bg-purple-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105"
+            className="inline-block mb-6 bg-[#800080] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105"
           >
             ← Back to Tools
           </Link>
@@ -71,7 +71,7 @@ export default function SslChecker() {
               if (domain) checkSSL();
             }}
           >
-            <div className="border border-purple-400 bg-gradient-to-r from-gray-200 to-gray-100 text-black rounded-xl p-6 shadow-lg">
+            <div className="border border-[#800080] bg-gradient-to-r from-gray-200 to-gray-100 text-black rounded-xl p-6 shadow-lg">
               <label className="block mb-4 font-semibold text-black text-lg">
                 🔐 Enter a domain:
               </label>
@@ -80,13 +80,13 @@ export default function SslChecker() {
                 value={domain}
                 onChange={(e) => setDomain(e.target.value)}
                 placeholder="example.com"
-                className="w-full p-3 rounded-md border border-gray-700 focus:border-purple-700 text-black text-sm focus:outline-none"
+                className="w-full p-3 rounded-md border border-gray-900 focus:border-[#800080] text-black text-sm focus:outline-none"
               />
 
               <button
                 type="submit"
                 disabled={!domain || loading}
-                className="mt-4 bg-purple-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105 disabled:opacity-50"
+                className="mt-4 bg-[#800080] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105"
               >
                 Check SSL
               </button>
