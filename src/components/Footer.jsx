@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import WebLogoKshr from "../assets/images/Web-Logo-KSHR.svg";
+import SubscriberForm from "../components/Form/SubcriberForm";
 
 export default function Footer() {
   const [year, setYear] = useState("");
@@ -114,30 +115,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Newsletter 
           <div>
             <h3 className="text-lg text-black font-semibold mb-4">Stay Updated</h3>
             <p className="text-black mb-4">Subscribe to our newsletter for updates and resources.</p>
-            <form>
-              <div className="relative">
-                <input
-                  type="email"
-                  required
-                  placeholder="Your email"
-                  className="w-full bg-gradient-to-r from-gray-200 to-gray-100  border border-gray-700 rounded-lg py-3 px-4 placeholder-gray-500 text-black focus:outline-none focus:ring-2 focus:ring-purple-500"
-                />
-                <button
-                  type="submit"
-                  className="cursor-pointer absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#800080] hover:bg-gray-700 text-white rounded-lg px-4 py-1 transition"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </button>
-              </div>
-              <p className="mt-2 text-xs text-gray-700">No spam, unsubscribe at any time.</p>
-            </form>
-          </div>
+            <SubscriberForm />
+
+          </div> */}
         </div>
 
         {/* Footer bottom */}
