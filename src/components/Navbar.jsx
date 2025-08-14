@@ -105,8 +105,8 @@ const MobileNavItem = ({ to, label, onClick }) => (
       onClick={onClick}
       className={({ isActive }) =>
         isActive
-          ? "block text-purple-700 font-bold"
-          : "block text-gray-800 dark:text-black hover:text-purple-700 transition"
+          ? "block text-[#800080] font-bold"
+          : "block text-[#800080] dark:text-black hover:text-[#800080] transition"
       }
     >
       {label}

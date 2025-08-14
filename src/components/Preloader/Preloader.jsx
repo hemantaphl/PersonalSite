@@ -12,7 +12,7 @@ export default function Preloader() {
   if (!visible) return null;
 
   return (
-    <div className="fixed inset-0 bg-purple-500 dark:bg-purple-800 z-[9999] flex items-center justify-center transition-opacity duration-700">
+    <div className="fixed inset-0 bg-[#800080] dark:bg-purple-[#800080] z-[9999] flex items-center justify-center transition-opacity duration-700">
       <img src={Favicon} alt="Loading..." className="w-12 h-12 animate-pulse" />
     </div>
   );
