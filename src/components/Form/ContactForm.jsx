@@ -11,7 +11,7 @@ export default function ContactForm({ onSuccess }) {
   const [loading, setLoading] = useState(false);
 
   const SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbwMD_YBUjCdsz6Q86LN2PLhHybZQbumKkk_iuYjjP8Qf-eFeHlY3FoAFpa-c6NeXnWDTA/exec";
+    "https://script.google.com/macros/s/AKfycbyQC4Ek64i0NF_c7Ii779tc9SE2i_MnDWse5y73q6PmygYy2gdw8WuJz7r4YYIFr1WH/exec";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
